@@ -1,0 +1,33 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.column {
+    float: left;
+}
+.menu {
+    height: 100%;
+    width: 4%;
+    background-color: dimgrey;
+}
+.content {
+    padding: 15pt;
+    width: 93%;
+}
+h1.intro {
+    font-size: 100px; 
+    text-align: center;
+}
+h2.intro {
+    text-align: center;
+    font-size: 50px; 
+}
+.name{
+    color:deeppink;
+}
+img.headshot{
+    display: block;
+    margin: auto;
+    padding-top: 10%
+}
