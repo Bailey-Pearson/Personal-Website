@@ -12,22 +12,65 @@
     background-color: dimgrey;
 }
 .content {
-    padding: 15pt;
-    width: 93%;
+    width: 96%;
+    height: 100%;
+    background: url(/media/background.jpg) no-repeat;
+    background-size: 100%;
 }
 h1.intro {
-    font-size: 100px; 
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 700%; 
     text-align: center;
 }
 h2.intro {
-    text-align: center;
-    font-size: 50px; 
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 300%;
+    text-align: center; 
 }
 .name{
-    color:deeppink;
+    color:hotpink;
 }
 img.headshot{
     display: block;
     margin: auto;
-    padding-top: 10%
+    padding-top: 10%;
+}
+img.linkedin{
+    height:4.5%;
+    display: block;
+    margin: auto;
+    padding-top: 100%;
+}
+img.github{
+    display: block;
+    margin: auto;
+    height: 4.5%;
+    padding-top: 100%;
+}
+img.about{
+    display: block;
+    margin: auto;
+    height: 5.5%;
+    padding-top: 75%;
+}
+img.resume{
+    display: block;
+    margin: auto;
+    height: 5.5%;
+    padding-top: 100%;
+}
+img.projects{
+    display: block;
+    margin: auto;
+    height: 5%;
+    padding-top: 100%;
+}
+h4.menu{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+  width: auto;
+  height: auto;
 }
